@@ -60,8 +60,19 @@ h4 {
     color: green;
 }
 
+.h4-avaliacao {
+    color: #DF1C44;
+}
+
 p, ul {
     font-family: 'Secular One', sans-serif;
+}
+
+.p-titulo {
+    font-family: 'Press Start 2P', Arial, Helvetica, sans-serif;
+    text-align: center;
+    font-size: 12px;
+    color: #9E6BA3;
 }
 
 a {
