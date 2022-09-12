@@ -1,2 +1,2 @@
 # Site da Turma!
-Acesse o nosso site da turma &lt;3 (versão Alpha)
+Acesse o nosso site da turma &lt;3
