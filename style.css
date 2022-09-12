@@ -39,17 +39,13 @@ h1 {
     font-size: 30px;
 }
 
-h2, h3 {
-    text-align: left;
-}
-
 h2 {
     margin-top: 40px;
     font-size: 15px; 
 }
 
-h3, h4 {
-    font-size: 10px; 
+h2, h3 {
+    text-align: left;
 }
 
 h3 {
@@ -57,24 +53,24 @@ h3 {
     color: #45548F;
 }
 
-h4 {
-    margin-top: 12px;
-    color: green;
+.h3-hr {
+    color: #000000;
 }
 
-.h4-avaliacao {
-    color: #DF1C44;
+h3, h4 {
+    font-size: 10px; 
+}
+
+h4 {
+    color: #008000;
+}
+
+.h4-hr {
+    color: #45548F;
 }
 
 p, ul {
     font-family: 'Secular One', sans-serif;
-}
-
-.p-titulo {
-    font-family: 'Press Start 2P', Arial, Helvetica, sans-serif;
-    text-align: center;
-    font-size: 12px;
-    color: #9E6BA3;
 }
 
 a {
@@ -114,44 +110,38 @@ i {
     box-shadow: 10px 10px;
 }
 
-.box2 {
-    width: 500px;
-    height: 500px;
-    padding: 30px;
-    background: #DCDCDC;
-    overflow-y: scroll;
-    overflow-x: hidden;
-    box-shadow: 10px 10px;
+.insta-text {
+    background-image: linear-gradient(
+        -225deg,
+      #515BD4 0%,
+      #B134AF 29%,
+      #DD2A7B 67%,
+      #FEDA77 100%
+    );
+    background-size: auto auto;
+    background-clip: border-box;
+    background-size: 200% auto;
+    color: #fff;
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    animation: textclip 2s linear infinite;
+    display: inline-block;
+    font-size: 13px;
+    font-family: 'Press Start 2P', Arial, Helvetica, sans-serif;
+    line-height: 30px;
 }
 
-.box2 h3 {
-    color: black;
+@keyframes textclip {
+  to {
+    background-position: 200% center;
+  }
 }
 
-.box2 h4 {
-    color: #45548F;
-}
-
-@media (max-width: 999px) {
+@media (max-width: 992px) {
     .box {
         width: 340px;
         height: 340px;
-        padding: 30px;
-        background: #DCDCDC;
-        overflow-y: scroll;
-        overflow-x: hidden;
-        box-shadow: 10px 10px;
-        margin: 20px;
-    }
-    
-    .box2 {
-        width: 340px;
-        height: 340px;
-        padding: 30px;
-        background: #DCDCDC;
-        overflow-y: scroll;
-        overflow-x: hidden;
-        box-shadow: 10px 10px;
         margin: 20px;
     }
 
@@ -175,7 +165,6 @@ i {
     
     h3 {
         margin-top: 8px;
-        color: #45548F;
     }
     
     h4 {
@@ -183,25 +172,14 @@ i {
     }
     
     p, ul {
-        font-family: 'Secular One', sans-serif;
         font-size: 15px;
     }
     
-    a {
-        text-decoration: underline;
-        color: #45548F;
-    }
-    
     .a-link {
-        text-decoration: none;
-        font-family: 'Press Start 2P', Arial, Helvetica, sans-serif;
         font-size: 13px;
-        color: #7A6399;
-        line-height: 30px;
     }
     
     i {
         font-size: 16px;
-        color: #7A6399;
     }
 }
